@@ -19,7 +19,7 @@
 ## 1. البيانات التي نجمعها
 
 - **بيانات الحساب:** الاسم والبريد الإلكتروني ومعرّف المستخدم. عند التسجيل بكلمة مرور تُدار كلمة المرور عبر خدمة Firebase Authentication ولا نطّلع عليها. وعند الدخول بحساب Google نستلم منه الاسم والبريد.
-- **رقم الهاتف (اختياري):** إذا اخترتَ إضافة رقمك إلى منشور فإننا نتحقق منه برمز يصلك في رسالة نصية.
+- **رقم الهاتف (اختياري):** يمكنك إضافة رقمك وتأكيده برمز يصلك في رسالة نصية. يُحفظ الرقم المؤكَّد في حسابك، ولا يظهر في ملفك الشخصي إلا لك أنت.
 - **الموقع الذي تُدخله:** الدولة والولاية والبلدية التي تحدّدها لمنشورك. لا نجمع موقع جهازك عبر GPS.
 - **محتوى منشوراتك:** النص وتفاصيل الوثيقة والصور التي ترفعها.
 - **الصور:** لا يصل التطبيق إلى معرض صورك، ونستلم فقط الصورة التي تختارها بنفسك، أو التي تلتقطها بالكاميرا بعد موافقتك على إذن الكاميرا.
@@ -39,7 +39,8 @@
 ## 3. ما الذي يظهر للمستخدمين الآخرين
 
 - **المنشورات:** نصها وصورها والموقع الذي أدخلته تظهر لمستخدمي التطبيق.
-- **رقم الهاتف:** إضافته اختيارية. فإذا أضفته وأكّدته برمز الرسالة النصية فإنك تصرّح بعرضه **علناً لجميع مستخدمي التطبيق** في منشورك، ليسهل الاتصال بك لمن وجد ما فقدته أو لمن فقد ما وجدته. لا تُضِف رقماً لا ترغب أن يراه الجميع. ويمكنك إزالته بحذف حسابك أو بمراسلتنا.
+- **الملف الشخصي:** لا يظهر إلا لصاحبه، بما فيه رقم هاتفك المؤكَّد.
+- **رقم الهاتف:** لا يُعرض رقمك المؤكَّد للآخرين تلقائياً. ففي كل مرة تضيف فيها منشوراً نسألك هل تريد إدراج رقمك فيه، ولك الخيار في كل منشور على حدة، حتى لو كان رقمك مؤكَّداً في حسابك. فإذا اخترتَ إدراجه في منشور فإنك تصرّح بعرضه **علناً لجميع مستخدمي التطبيق** في ذلك المنشور، ليسهل الاتصال بك لمن وجد ما فقدته أو لمن فقد ما وجدته. لا تُدرجه إن كنت لا ترغب أن يراه الجميع. ويمكنك إزالته بحذف حسابك أو بمراسلتنا.
 - **الرسائل:** يراها أطراف المحادثة، وقد يطّلع عليها فريق الإدارة عند وجود بلاغ أو مخالفة تستدعي المراجعة.
 
 ## 4. مزوّدو الخدمة
@@ -134,7 +135,7 @@
 ## 1. Data We Collect
 
 - **Account data:** your name, email address, and user ID. If you register with a password, it is managed by Firebase Authentication and we cannot see it. If you sign in with Google, we receive your name and email from your Google account.
-- **Phone number (optional):** if you choose to add your number to a post, we verify it with a code sent to you by text message.
+- **Phone number (optional):** you can add your number and confirm it with a code sent to you by text message. The confirmed number is saved in your account, and it appears in your profile only to you.
 - **Location you enter:** the country, state, and municipality you select for your post. We do not collect your device's GPS location.
 - **Content of your posts:** text, document details, and the images you upload.
 - **Images:** the app does not access your photo gallery. We only receive the image you choose yourself, or take with the camera after you grant camera permission.
@@ -154,7 +155,8 @@ We do not show ads, we do not sell your data, and we do not use tracking tools f
 ## 3. What Other Users Can See
 
 - **Posts:** their text, images, and the location you entered are visible to app users.
-- **Phone number:** adding it is optional. If you add it and confirm it with the text-message code, you are choosing to display it **publicly to all app users** in your post, so that anyone who found what you lost, or lost what you found, can call you. Do not add a number you do not want everyone to see. You can remove it by deleting your account or by contacting us.
+- **Profile:** visible only to its owner, including your confirmed phone number.
+- **Phone number:** your confirmed number is not shown to others automatically. Each time you create a post, we ask whether you want to include your number in it, and the choice is yours for each post separately, even if your number is already confirmed in your account. If you choose to include it in a post, you are choosing to display it **publicly to all app users** in that post, so that anyone who found what you lost, or lost what you found, can call you. Do not include it if you do not want everyone to see it. You can remove it by deleting your account or by contacting us.
 - **Messages:** visible to the participants in the conversation. The app's administration may review them when a report or violation requires it.
 
 ## 4. Service Providers
